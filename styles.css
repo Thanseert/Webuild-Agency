@@ -1,0 +1,266 @@
+
+
+@media(max-width: 600px){
+    .first-sec {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first-heading{
+        width: 70%;
+        margin-left: 15px;
+    }
+    .first-image img{
+        width: 100%;
+    }
+
+    .navbar .nav-item{
+        display: none;
+    }
+    .first-heading-text h1{
+        font-size: 25px;
+    }
+
+    .footer-menu ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+    
+    .brand{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    /* .f-menu{
+        padding: 0;
+    } */
+
+}
+
+
+
+.container{
+    padding-left: 160px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.brand-name{
+    float: left;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding-right: 200px;
+}
+
+.first-sec{
+    display: flex;
+    justify-content: center;
+}
+
+.first-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.first-heading-text h1{
+    padding-bottom: 2px;
+}
+
+.first-image img{
+    /* width: 650px; */
+    height: 450px;
+}
+
+.first-heading-anchor{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 56px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #0070f3;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+    :hover{
+        background: rgba(0,118,255,0.9);
+        box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+    }
+  }
+
+
+/* second section */
+
+hr{
+    clear: both;
+    width: 80%;
+    color: black;
+}
+
+
+.container-sec{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-1{
+    width: 50%;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.feature-2{
+    float: right;
+    margin-bottom: 100px;
+}
+
+/* third section */
+
+.container-third{
+    clear: both;
+    background-color: blue(0, 0, 0);
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.container-third > .card > .card-h2, a{
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-third > .card > .card-h2{
+    padding-top: 50px;
+}
+
+.container-third > .card >  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 56px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #0070f3;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+    :hover{
+        background: rgba(0,118,255,0.9);
+        box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+    }
+}
+
+/* footer */
+
+.last-sec{
+    clear: both;
+}
+
+footer{
+    background: #111;
+    height: auto;
+    width: 79vw;
+    padding-top: 40px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+} 
+
+
+/* position: absolute;
+bottom: 0;
+left: 0;
+right: 0; */
+
+
+.footer-menu{
+    float: right;
+  }
+  
+  .footer-menu ul{  
+    display: flex;
+  }
+
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ul li a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+
+  }
+  
+
+  ul {
+    list-style-type: none;
+  }
+
+.li-element{
+    padding-top: 10px;
+}
+
+
+.copy-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  /* .footer-menu ul li a:hover{
+    color: #27bcda;
+  } */
+
